@@ -14,5 +14,5 @@ sudo apt install elementary-tweaks
 
 ## Change Cursor Size in Dconf
 
-<img src="Dconf-Settings/change-cursor-size.png">
+<img src="Dconf-Settings/change-cursor-size.png" =75%x>
 
