@@ -20,3 +20,6 @@ Change Scaling in Dconf ("1.21" for laptop and "1" for monitor)
 
 <img src="Dconf-Settings/dconf-scaling.png" width="500">
 
+Change Default Therminal when using Nemo
+
+<img src="Dconf-Settings/default-terminal-nemo.png" width="500">
