@@ -14,6 +14,8 @@ sudo apt install neofetch -y
 sudo apt install menulibre -y
 sudo apt install font-manager -y
 sudo apt install dconf-editor -y
+sudo apt install gnome-system-monitor -y
+sudo apt install gparted -y
 sudo apt install net-tools -y
 sudo apt install traceroute -y
 sudo apt install whois -y
