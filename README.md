@@ -78,6 +78,7 @@ gesture swipe left 4 xdotool key Super+Left
 ```
 
 Solution if System Hangs While Shutting Down
+
 Run this command
 ```
 sudo io.elementary.code /etc/systemd/system.conf
