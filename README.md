@@ -45,7 +45,9 @@ libinput-gestures-setup start
 Gestures GUI Install
 sudo apt install python3 python3-setuptools xdotool python3-gi libinput-tools python-gobject
 
-Installation
+Installationgit clone https://gitlab.com/cunidev/gestures
+cd gestures
+sudo python3 setup.py install
 git clone https://gitlab.com/cunidev/gestures
 cd gestures
 sudo python3 setup.py install
@@ -73,6 +75,17 @@ gesture swipe right 4 xdotool key Super+Right
 
 # Swipe to the Previous Workspace
 gesture swipe left 4 xdotool key Super+Left
+```
+
+### Solution if System Hangs While Shutting Down
+Run this command
+```
+sudo io.elementary.code /etc/systemd/system.conf
+```
+Delete the # in front of the the two lines below and change the 90s to something lower. I've set mine to 6s and my system shuts down very quickly.
+```
+DefaultTimeoutStartSec=9s
+DefaultTimeoutStopSec=9s
 ```
 
 Change Cursor Size in Dconf
