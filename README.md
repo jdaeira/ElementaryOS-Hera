@@ -16,3 +16,7 @@ Change Cursor Size in Dconf
 
 <img src="Dconf-Settings/change-cursor-size.png" width="500">
 
+Change Scaling in Dconf
+
+<img src="Dconf-Settings/dconf-scaling.png" width="500">
+
