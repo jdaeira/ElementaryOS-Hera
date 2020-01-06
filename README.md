@@ -1,4 +1,4 @@
-# ElementaryOS Tweaks
+# ElementaryOS Tweaks and Setup
 
 Add PPA Support
 ```
@@ -10,6 +10,21 @@ Install Elementary Tweaks
 sudo add-apt-repository ppa:philip.scott/elementary-tweaks
 sudo apt update
 sudo apt install elementary-tweaks
+```
+
+Install fonts in the Fonts folder to system
+
+Install AppImage Launcher
+```
+https://github.com/TheAssassin/AppImageLauncher/releases
+
+Download and install the .deb file
+```
+
+AppImages to Download
+```
+Balena Etcher
+Flameshot
 ```
 
 Change Cursor Size in Dconf
