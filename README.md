@@ -23,3 +23,11 @@ Change Scaling in Dconf ("1.21" for laptop and "1" for monitor)
 Change Default Therminal when using Nemo
 
 <img src="Dconf-Settings/default-terminal-nemo.png" width="500">
+
+Change Elementary OS Terminal Font
+
+<img src="Dconf-Settings/eOS-terminal-font.png" width="500">
+
+Enable "Play" Media Key"
+
+<img src="Dconf-Settings/enable-play-key.png" width="500">
