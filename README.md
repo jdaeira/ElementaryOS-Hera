@@ -1,6 +1,6 @@
 # ElementaryOS Tweaks and Setup
 
-## Add PPA Support
+#### Add PPA Support
 ```
 sudo apt install software-properties-common
 ```
