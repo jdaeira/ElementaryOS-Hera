@@ -1,33 +1,33 @@
 # ElementaryOS Tweaks and Setup
 
-### Add PPA Support
+#### Add PPA Support
 ```
 sudo apt install software-properties-common
 ```
 
-Install Elementary Tweaks
+#### Install Elementary Tweaks
 ```
 sudo add-apt-repository ppa:philip.scott/elementary-tweaks
 sudo apt update
 sudo apt install elementary-tweaks
 ```
 
-Install fonts in the Fonts folder to system
+#### Install fonts in the Fonts folder to system
 
-Install AppImage Launcher
+#### Install AppImage Launcher
 ```
 https://github.com/TheAssassin/AppImageLauncher/releases
 
 Download and install the .deb file
 ```
 
-AppImages to Download
+#### AppImages to Download
 ```
 Balena Etcher
 Flameshot
 ```
 
-Libunput Setup and Gestures Install
+#### Libunput Setup and Gestures Install
 ```
 sudo gpasswd -a $USER input
 ## Logout for changes to take effect
@@ -54,7 +54,7 @@ sudo python3 setup.py install
 
 ```
 
-Libinput Swipe Gestures
+#### Libinput Swipe Gestures
 
 ```
 # Gestures
@@ -77,7 +77,7 @@ gesture swipe right 4 xdotool key Super+Right
 gesture swipe left 4 xdotool key Super+Left
 ```
 
-Solution if System Hangs While Shutting Down
+#### Solution if System Hangs While Shutting Down
 
 Run this command
 ```
@@ -89,22 +89,22 @@ DefaultTimeoutStartSec=9s
 DefaultTimeoutStopSec=9s
 ```
 
-Change Cursor Size in Dconf
+#### Change Cursor Size in Dconf
 
 <img src="Dconf-Settings/change-cursor-size.png" width="500">
 
-Change Scaling in Dconf ("1.21" for laptop and "1" for monitor)
+#### Change Scaling in Dconf ("1.21" for laptop and "1" for monitor)
 
 <img src="Dconf-Settings/dconf-scaling.png" width="500">
 
-Change Default Therminal when using Nemo
+#### Change Default Therminal when using Nemo
 
 <img src="Dconf-Settings/default-terminal-nemo.png" width="500">
 
-Change Elementary OS Terminal Font
+#### Change Elementary OS Terminal Font
 
 <img src="Dconf-Settings/eOS-terminal-font.png" width="500">
 
-Enable "Play" Media Key"
+#### Enable "Play" Media Key"
 
 <img src="Dconf-Settings/enable-play-key.png" width="500">
