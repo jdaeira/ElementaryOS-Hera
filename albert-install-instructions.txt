@@ -1,0 +1,9 @@
+Download Albert in the link below:
+
+https://software.opensuse.org/download.html?project=home:manuelschneid3r&package=albert
+
+Install Dependencies
+
+sudo apt install libmuparser2v5 libqt5charts5 libqt5concurrent5 libqt5qml5 libqt5quick5 libqt5sql5 libqt5sql5-sqlite
+
+Install the .deb file
