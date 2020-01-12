@@ -91,7 +91,7 @@ DefaultTimeoutStopSec=9s
 
 #### Enable ZSH Plugins
 
-Run scripts and then enable the plugins
+Run script in the Scripts folder and then enable the plugins: 
 ```
 - `nano ~/.zshrc` find `plugins=(git)`
  
