@@ -89,6 +89,19 @@ DefaultTimeoutStartSec=9s
 DefaultTimeoutStopSec=9s
 ```
 
+#### Enable ZSH Plugins
+
+Run scripts and then enable the plugins
+```
+- `nano ~/.zshrc` find `plugins=(git)`
+ 
+- Append `zsh-autosuggestions & zsh-syntax-highlighting` to  `plugins()` like this 
+ 
+`plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`
+
+- source ~./zshrc
+```
+
 #### Change Cursor Size in Dconf
 
 <img src="Dconf-Settings/change-cursor-size.png" width="500">
