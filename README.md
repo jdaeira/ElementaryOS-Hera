@@ -27,6 +27,13 @@ Balena Etcher
 Flameshot
 ```
 
+AppCenter Apps to Install
+```
+Clipped
+ColorPicker
+Formatter
+```
+
 #### Libunput Setup and Gestures Install
 ```
 sudo gpasswd -a $USER input
