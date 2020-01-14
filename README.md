@@ -27,7 +27,7 @@ Balena Etcher
 Flameshot
 ```
 
-AppCenter Apps to Install
+#### AppCenter Apps to Install
 ```
 Clipped
 ColorPicker
