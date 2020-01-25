@@ -32,6 +32,7 @@ Flameshot
 Clipped
 ColorPicker
 Formatter
+Image Burner
 ```
 
 #### Libunput Setup and Gestures Install
