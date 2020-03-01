@@ -39,7 +39,8 @@ Image Burner
 ```
 sudo gpasswd -a $USER input
 ## Logout for changes to take effect
-sudo apt-get install libinput-tools
+sudo apt install xdotool wmctrl
+sudo apt install libinput-tools
 
 Installation
 git clone https://github.com/bulletmark/libinput-gestures.git
@@ -53,13 +54,10 @@ libinput-gestures-setup start
 Gestures GUI Install
 sudo apt install python3 python3-setuptools xdotool python3-gi libinput-tools python-gobject
 
-Installationgit clone https://gitlab.com/cunidev/gestures
-cd gestures
-sudo python3 setup.py install
+Installation
 git clone https://gitlab.com/cunidev/gestures
 cd gestures
 sudo python3 setup.py install
-
 ```
 
 #### Libinput Swipe Gestures
